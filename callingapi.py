@@ -1,6 +1,4 @@
-import requests
-import json
-import os.path
+import requests, json, os.path
 from os import path
 exists = path.exists("/home/yogendra/Desktop/RequestsAPI/file.json")
 if exists:
